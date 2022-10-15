@@ -1,23 +1,55 @@
 <html>
-<title>Nigar Salayeva</title>
+<title>Contact information</title>
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e19ab8fb17.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<style>
+    .checkbtn{
+        margin-top: 20px;
+    }
+    label{
+        
+        font-family: sans-serif ;
+        color: #2C3639;
+        font-size: 20px;
+    }
+</style>
 </head>
+<nav class="sticky">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Contact Information</label>
+    <ul class="a">
+        <li><a class="n" href="https://www.linkedin.com/in/nigar-salayeva-23b054245" target="_blank">Linkedin</a></li>
+        <li><a class="n" href="mailto:nsalayeva12146@ada.edu.az" target="_blank">Email Me</a></li>
+    <li><a class="n" href="https://www.facebook.com/nigar.salayeva.184/" target="_blank">Facebook</a></li>
+  
+    </ul>
+  </nav>
 <body>
 <adress>
 
-<p><a href="mailto:nsalayeva12146@ada.edu.az">Email Me</a></p>
-<p><a href="https://www.facebook.com">Facebook</a></p>
+
 </adress>
 <form action="mailto:nsalayeva12146.ada.edu.az" method="post">
 <label for="subject">Subject: </label> <br/> 
-<input type="text" name="subject" placeholder="Subject"/><br/>
+<input class="cont" type="text" name="subject" placeholder="Subject"/><br/>
 <label for="email">Email: </label> <br/> 
-<input type="email" name="email" placeholder="Email"/> <br/>
+<input class="cont" type="email" name="email" placeholder="Email"/> <br/>
 <label for="message">Message: </label> <br/> 
-<textarea style="resize: none;" name="Message", cols="30", rows="10"></textarea> <br/>
+<textarea class="cont" style="resize: none;" name="Message", cols="30", rows="10"></textarea> <br/>
 
-<input type="checkbox", value="Subscribe">
-<input type="submit", value="Send!">
+<input class="cont" type="checkbox", value="Subscribe">
+<input class="contn" type="submit", value="Send!">
 
 </form>
 </body>
