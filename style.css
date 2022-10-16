@@ -55,6 +55,9 @@ nav.sticky{
     margin-right: 40px;
     cursor: pointer;
     display: none;
+  }  
+  #check{
+    display: none;
   }
 
    @media (max-width: 1230px)
