@@ -60,7 +60,7 @@ nav.sticky{
     display: none;
   }
 
-   @media (max-width: 1230px)
+   @media (max-width: 1390px)
    {
     .checkbtn{
       display: block;
